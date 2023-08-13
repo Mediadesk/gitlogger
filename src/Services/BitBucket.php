@@ -11,7 +11,7 @@ class BitBucket extends BaseLogger implements LoggingContracts
 {
     protected $domain = 'bitbucket.org';
 
-    protected $service = 'github';
+    protected $service = 'bitbucket';
 
     public function __construct(Request $request)
     {
