@@ -1,0 +1,27 @@
+{
+    "name": "mediadesk/gitlogger",
+    "description": "The Git Commit Logger Laravel Package designed to streamline the process of logging and monitoring Git commits within your Laravel applications.",
+    "keywords": ["php","laravel", "github", "bitbucket", "logger", "commits", "git history"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mediadesk\\GitLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pranav P",
+            "email": "ppranav164@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mediadesk\\GitLogger\\GitLoggerServiceProvider"
+            ]
+        }
+    }
+}
